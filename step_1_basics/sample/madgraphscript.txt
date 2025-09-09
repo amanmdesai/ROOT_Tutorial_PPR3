@@ -1,0 +1,7 @@
+# not for tutorial 
+import model sm-full
+generate p p > h, h > mu+ mu-
+launch
+shower=Pythia8
+set ebeam1 6500
+set ebeam2 6500

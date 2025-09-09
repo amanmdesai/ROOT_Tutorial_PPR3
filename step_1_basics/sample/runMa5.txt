@@ -1,0 +1,9 @@
+set main.fastsim.package = delphes
+set main.lumi = 300
+
+plot MET
+set main.outputfile = ma5_output.lhe
+import tag_1_pythia8_events.hepmc.gz
+
+submit package
+exit
